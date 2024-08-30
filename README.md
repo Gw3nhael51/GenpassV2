@@ -1,7 +1,5 @@
 README
 
-README
-
 Ce projet est un générateur de mots de passe simple, réalisé avec Python. 
 C'est une amélioration de la première version de genpass.exe : https://github.com/Gw3nhael51/Genpass.exe/blob/main/generativepassw.py
 
