@@ -25,7 +25,7 @@ root = Tk()
 root.geometry("400x155")  # Définit la taille de la fenêtre principale
 root.title("Générateur de mots de passe V2")  # Définit le titre de la fenêtre
 
-root.iconbitmap('D:/IA/generativepassw.ico')  # Définit l'icône de la fenêtre
+root.iconbitmap('generativepassw.ico')  # Définit l'icône de la fenêtre
 
 password = StringVar(root)
 password.set('*' * 20)  # Initialise avec des astérisques
