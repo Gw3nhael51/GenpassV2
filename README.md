@@ -6,7 +6,7 @@ Un **générateur de mots de passe avancé** développé en Python avec des fonc
 
 ## ✨ Fonctionnalités
 
-- **Longueur personnalisable** avec 15 caractères minimum par défaut
+- **Longueur personnalisable** avec 18 caractères minimum par défaut
 - **Caractères spéciaux optionnels** pour une sécurité renforcée
 - **Masquage automatique** du mot de passe avec des '\*'
 - **Copie automatique** dans le presse-papiers
@@ -140,7 +140,7 @@ pip install pyperclip
 
 | Fonctionnalité           | V1       | V2                    |
 | ------------------------ | -------- | --------------------- |
-| Longueur par défaut      | Variable | 15 caractères minimum |
+| Longueur par défaut      | Variable | 18 caractères minimum |
 | Longueur max (à faire)   | Non      | 30 caractères max     |
 | Caractères spéciaux      | Non      | Optionnel             |
 | Masquage du mot de passe | Non      | Oui (avec '\*')       |
@@ -164,7 +164,7 @@ An **advanced password generator** developed in Python with enhanced features.
 
 ### Features
 
-- **Customizable length** with 15 characters minimum by default
+- **Customizable length** with 18 characters minimum by default
 - **Optional special characters** for enhanced security
 - **Automatic masking** of password with '\*'
 - **Automatic copying** to clipboard

@@ -22,7 +22,7 @@ def update_password():
     copy_to_clipboard(new_password)  # Copie le mot de passe dans le presse-papiers
 
 root = Tk()
-root.geometry("400x155")  # Définit la taille de la fenêtre principale
+root.geometry("800x130")  # Définit la taille de la fenêtre principale
 root.title("Générateur de mots de passe V2")  # Définit le titre de la fenêtre
 
 root.iconbitmap('./images/generativepassw.ico')  # Définit l'icône de la fenêtre
@@ -33,7 +33,7 @@ password.set('*' * 20)  # Initialise avec des astérisques
 Label(root, text="Longueur du mot de passe :").pack()  # Étiquette pour la longueur du mot de passe
 entry = Entry(root, show='')  # Champ de saisie pour la longueur du mot de passe
 entry.pack()
-entry.insert(0, "15")  # Valeur par défaut de 15 caractères
+entry.insert(0, "18")  # Valeur par défaut de 18 caractères
 
 specials = IntVar()
 Checkbutton(root, text="Inclure des caractères spéciaux", variable=specials).pack()  # Permet à l'utilisateur de cocher pour les caractères spéciaux
@@ -42,6 +42,6 @@ Button(root, text="Générer un nouveau mot de passe", command=update_password).
 
 Label(root, textvariable=password).pack()  # Étiquette pour afficher le mot de passe (masqué par des astérisques)
 
-Button(root, text='Mon Github', command=lambda: webbrowser.open('https://github.com/Gw3nhael51')).pack()  # Bouton pour ouvrir le lien vers les projets GitHub
+# Button(root, text='Mon Github', command=lambda: webbrowser.open('https://github.com/Gw3nhael51')).pack()  # Bouton pour ouvrir le lien vers les projets GitHub
 
 root.mainloop()  # Lance la boucle principale de l'interface graphique
