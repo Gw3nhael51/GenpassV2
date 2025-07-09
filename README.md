@@ -31,23 +31,80 @@ Vous pouvez télécharger l'application **.exe** directement :
 
 ### Option 2 : Installation depuis le code source
 
+#### Méthode automatique (recommandée)
+
 1. Clonez le repository :
 
 ```bash
 git clone https://github.com/Gw3nhael51/GenpassV2.git
+cd GenpassV2
 ```
 
-2. Installez les dépendances :
+2. Lancez le script de configuration :
+
+   - **Windows** : Double-cliquez sur `install_requirements.bat`
+   - Le script va créer et activer l'environnement virtuel automatiquement
+
+3. Installez les dépendances (dans le terminal activé) :
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Lancez l'application :
+4. Lancez l'application :
 
 ```bash
 python generativepasswV2.py
 ```
+
+#### Méthode manuelle complète
+
+1. Clonez le repository :
+
+```bash
+git clone https://github.com/Gw3nhael51/GenpassV2.git
+cd GenpassV2
+```
+
+2. Créez un environnement virtuel :
+
+```bash
+python -m venv .venv
+```
+
+3. Activez l'environnement virtuel :
+
+```bash
+# Windows (CMD)
+.venv\Scripts\activate
+
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+
+# Linux/Mac
+source .venv/bin/activate
+```
+
+4. Installez les dépendances :
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Lancez l'application :
+
+```bash
+python generativepasswV2.py
+```
+
+#### 🔧 Dépannage
+
+Si vous rencontrez des problèmes :
+
+- **Erreur "pip not found"** : Assurez-vous que l'environnement virtuel est activé
+- **Erreur d'installation** : Essayez `python -m pip install -r requirements.txt`
+- **Erreur d'activation** : Exécutez le script en tant qu'administrateur
+- **Erreur "pyperclip not found"** : Utilisez `python` au lieu de `py`
 
 ---
 
@@ -80,11 +137,18 @@ pip install pyperclip
 | Fonctionnalité           | V1       | V2                    |
 | ------------------------ | -------- | --------------------- |
 | Longueur par défaut      | Variable | 15 caractères minimum |
+| Longueur max (à faire)   | Non      | 30 caractères max     |
 | Caractères spéciaux      | Non      | Optionnel             |
 | Masquage du mot de passe | Non      | Oui (avec '\*')       |
 | Copie automatique        | Non      | Oui                   |
 | Interface graphique      | Basique  | Améliorée             |
 | Lien GitHub              | Non      | Oui                   |
+
+---
+
+## 🖼️ Capture d'écran
+
+![Interface GenpassV2](./images/screen.png)
 
 ---
 
@@ -119,23 +183,80 @@ You can download the **.exe application** directly:
 
 #### Option 2: Installation from source code
 
+##### Automatic method (recommended)
+
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/Gw3nhael51/GenpassV2.git
+cd GenpassV2
 ```
 
-2. Install dependencies:
+2. Run the configuration script:
+
+   - **Windows** : Double-click on `install_requirements.bat`
+   - The script will create and activate the virtual environment automatically
+
+3. Install dependencies (in the activated terminal):
 
 ```bash
-pip install pyperclip
+pip install -r requirements.txt
 ```
 
-3. Run the application:
+4. Run the application:
 
 ```bash
 python generativepasswV2.py
 ```
+
+##### Complete manual method
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Gw3nhael51/GenpassV2.git
+cd GenpassV2
+```
+
+2. Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+3. Activate the virtual environment:
+
+```bash
+# Windows (CMD)
+.venv\Scripts\activate
+
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+
+# Linux/Mac
+source .venv/bin/activate
+```
+
+4. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Run the application:
+
+```bash
+python generativepasswV2.py
+```
+
+##### 🔧 Troubleshooting
+
+If you encounter problems:
+
+- **"pip not found" error** : Make sure the virtual environment is activated
+- **Installation error** : Try `python -m pip install -r requirements.txt`
+- **Activation error** : Run the script as administrator
+- **"pyperclip not found" error** : Use `python` instead of `py`
 
 ### Technical features
 
@@ -147,6 +268,6 @@ python generativepasswV2.py
 ---
 
 <!--
-README V2 avec structure identique à la V1 mais adapté aux fonctionnalités spécifiques.
-Améliorations : longueur par défaut, caractères spéciaux, masquage, copie automatique.
+README V2 avec versions française et anglaise complètes et cohérentes.
+Instructions d'installation détaillées, dépannage, et capture d'écran.
 -->
