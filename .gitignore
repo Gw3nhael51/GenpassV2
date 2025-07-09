@@ -1,23 +1,70 @@
-# 🚫 Environnement virtuel Python (si tu en crées un plus tard)
+# 🚫 Environnement virtuel Python
 .venv/
 venv/
 env/
+ENV/
 
-# ⚙️ Cache et fichiers compilés
+# ⚙️ Cache et fichiers compilés Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.Python
 
-# 📦 Autres fichiers à ignorer
-*.log
-*.db
-*.sqlite3
-*.env
-
-# 🧪 Build et distribution
+# 📦 Fichiers de distribution et build
 dist/
 build/
 *.egg-info/
+*.egg
+*.so
 
-# 💻 Config éditeur
+# 🔧 Fichiers de configuration
+.env
+.env.local
+.env.production
+*.ini
+*.cfg
+
+# 📝 Logs et fichiers temporaires
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 💾 Bases de données
+*.db
+*.sqlite
+*.sqlite3
+
+# 🎨 Fichiers d'éditeurs de code
 .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🖥️ Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 📁 Fichiers de sauvegarde
+*.bak
+*.backup
+*.old
+
+# 🧪 Tests et couverture
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# 📊 Documentation générée
+docs/_build/
+
+# 🔐 Clés et secrets (sécurité)
+*.key
+*.pem
+*.p12
+secrets.json
