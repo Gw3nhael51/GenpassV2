@@ -91,6 +91,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+```bash
+pip install -r pyperclip
+```
+
 5. Lancez l'application :
 
 ```bash
