@@ -21,7 +21,7 @@ Un **générateur de mots de passe avancé** développé en Python avec des fonc
 
 Vous pouvez télécharger l'application **.exe** directement :
 
-[🔗 Télécharger GenpassV2.exe](https://github.com/Gw3nhael51/GenpassV2/releases)
+[🔗 Télécharger GenpassV2.exe](https://drive.google.com/file/d/19D168m6MGTt_AvP4NuA995brggKlUT5D/view?usp=sharing) (version .zip)
 
 ⚠️ **Note de sécurité :**
 
