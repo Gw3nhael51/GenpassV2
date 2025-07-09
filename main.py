@@ -42,6 +42,6 @@ Button(root, text="Générer un nouveau mot de passe", command=update_password).
 
 Label(root, textvariable=password).pack()  # Étiquette pour afficher le mot de passe (masqué par des astérisques)
 
-Button(root, text='Mes projets Github', command=lambda: webbrowser.open('https://github.com/Gw3nhael51')).pack()  # Bouton pour ouvrir le lien vers les projets GitHub
+Button(root, text='Mon Github', command=lambda: webbrowser.open('https://github.com/Gw3nhael51')).pack()  # Bouton pour ouvrir le lien vers les projets GitHub
 
 root.mainloop()  # Lance la boucle principale de l'interface graphique
